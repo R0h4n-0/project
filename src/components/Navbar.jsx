@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between px-8 py-4 bg-gray-800 text-white relative mb-10">
+      <nav className="fixed top-0 left-0 w-full z-10 flex items-center justify-between px-8 py-4 bg-gray-800 text-white">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold">
             Musical Time
@@ -49,13 +49,13 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="hidden sm:flex items-center space-x-4">
-          <a href="#" className="hover:underline">
+          <a href="https://www.facebook.com/" target="_" className="hover:underline">
             <FaFacebookF />
           </a>
-          <a href="#" className="hover:underline">
+          <a href="https://twitter.com/login" target="_" className="hover:underline">
             <FaTwitter />
           </a>
-          <a href="#" className="hover:underline">
+          <a href="https://www.instagram.com/" target="_" className="hover:underline">
             <FaInstagram />
           </a>
         </div>

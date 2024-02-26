@@ -4,6 +4,7 @@ import Home from "../src/pages/home";
 import Guitar from "./pages/guitar";
 import Drum from "./pages/drum";
 import Contact from "./pages/contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/drum" element={<Drum />} />
           <Route path="/contact" element={<Contact/>} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

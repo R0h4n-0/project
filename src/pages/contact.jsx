@@ -16,7 +16,7 @@ function Contact() {
   };
 
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-4 mt-20">
       <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
         <div className="mb-4">
