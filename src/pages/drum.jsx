@@ -3,10 +3,7 @@ import image1 from "../images/drums/mapex-torn.png";
 import image2 from "../images/drums/venus.png";
 import image3 from "../images/drums/rdpof.png";
 import image4 from "../images/drums/sbp2.png";
-// import image5 from "../images/drums/lg05.jpg"
-// import image6 from "../images/drums/tod10n.png"
-// import image7 from "../images/drums/skystang.png"
-// import image8 from "../images/drums/fenderstrato.png"
+
 import { FaShoppingCart } from "react-icons/fa";
 
 export default function Drum() {
@@ -14,11 +11,6 @@ export default function Drum() {
     const [hovered2, setHovered2] = useState(false);
     const [hovered3, setHovered3] = useState(false);
     const [hovered4, setHovered4] = useState(false);
-    const [hovered5, setHovered5] = useState(false);
-    const [hovered6, setHovered6] = useState(false);
-    const [hovered7, setHovered7] = useState(false);
-    const [hovered8, setHovered8] = useState(false);
-    
 
     return (
         <div className="container mx-auto">

@@ -4,7 +4,7 @@ import bgimg from '../images/bgimg.jpg';
 export default function Home() {
   return (
     <div
-      className={`bg-cover bg-no-repeat h-screen -mt-0`} // Add -mt-16 to remove the gap
+      className={`bg-cover bg-no-repeat h-screen -mt-0`}
       style={{
         backgroundImage: `url(${bgimg})`,
       }}

@@ -1,4 +1,3 @@
-// import React, { useRef, useState } from "react";
 import { useState } from "react";
 import image1 from "../images/guitar/tod10.png";
 import image2 from "../images/guitar/lg-08.png";
